@@ -5,6 +5,7 @@
 tasks:
   - init: npm install && npm run build
     command: npm run start
+image: node:buster
 ports:
   - port: 3000
     onOpen: open-preview
